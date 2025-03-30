@@ -163,7 +163,7 @@ const ExtremelyObese = () => {
     <div className={`underweight-container ${colorScheme}`}>
       <div className="plan-container">
         <div className="plan-header">
-          <h1 className="plan-title">Underweight Wellness Plan</h1>
+          <h1 className="plan-title">Extremely Obese Wellness Plan</h1>
           <p>Your Personalized Guide To Healthy Weight Gain</p>
         </div>
 
