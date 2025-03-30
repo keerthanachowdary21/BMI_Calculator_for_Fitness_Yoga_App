@@ -10,9 +10,9 @@ const getBmi = (height, weight) => {
 
 const getBmiCategory = (bmi) => {
   if (bmi < 18.5) return 'underweight'
-  if (bmi >= 18.5 && bmi < 24.9) return 'normal'
-  if (bmi >= 25 && bmi < 29.9) return 'overweight'
-  if (bmi >= 30 && bmi < 30.9) return 'obese'
+  if (bmi >= 18.5 && bmi <= 24.9) return 'normal'
+  if (bmi >= 25 && bmi <= 29.9) return 'overweight'
+  if (bmi >= 30 && bmi <= 30.9) return 'obese'
   return 'extremelyObese'
 }
 
