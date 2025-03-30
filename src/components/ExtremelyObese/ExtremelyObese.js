@@ -164,7 +164,7 @@ const ExtremelyObese = () => {
       <div className="plan-container">
         <div className="plan-header">
           <h1 className="plan-title">Extremely Obese Wellness Plan</h1>
-          <p>Your Personalized Guide To Healthy Weight Gain</p>
+          <p>Personalized care for achieving meaningful, health-focused progress</p>
         </div>
 
         {selectedImage && (

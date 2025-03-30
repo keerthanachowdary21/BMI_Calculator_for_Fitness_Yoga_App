@@ -157,7 +157,7 @@ const ObesePlan = () => {
       <div className="plan-container">
         <div className="plan-header">
           <h1 className="plan-title">Obese Plan Wellness Plan</h1>
-          <p>Your Personalized Guide To Healthy Weight Gain</p>
+          <p>Your Journey Towards Sustainable Weight Loss and Better Health</p>
         </div>
 
         {selectedImage && (
