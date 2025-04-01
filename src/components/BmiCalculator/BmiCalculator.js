@@ -2,6 +2,8 @@ import {useState, useEffect} from 'react'
 import {useNavigate} from 'react-router-dom'
 import './bmiCalculator.css'
 
+import bmiimage from './images/bmi.jpg'
+
 const getBmi = (height, weight) => {
   const heightInMeters = height / 100
   const bmi = weight / heightInMeters ** 2
@@ -120,10 +122,10 @@ const BmiCalculator = () => {
 
   return (
     <div className="main-container">
-      <h1 className="title">BMI Calculator for Fitness & Yoga App</h1>
+      <h1 className="title">𝐁𝐌𝐈 𝐂𝐚𝐥𝐜𝐮𝐥𝐚𝐭𝐨𝐫 𝐟𝐨𝐫 𝐅𝐢𝐭𝐧𝐞𝐬𝐬 & 𝐘𝐨𝐠𝐚 𝐀𝐩𝐩</h1>
       <img
         className="bmi-levels-image"
-        src="https://www.medicoverhospitals.in/bmi-calculator/bmi-calculator.webp"
+        src={bmiimage}
         alt="bmi levels"
       />
       <div className="card-container">
