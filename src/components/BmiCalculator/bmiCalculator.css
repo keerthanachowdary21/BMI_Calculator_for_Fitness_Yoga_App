@@ -19,11 +19,19 @@
   margin-bottom: 20px;
 }
 
-.bmi-levels-image {
+/* .bmi-levels-image {
   width: 750%;
   margin: 20px 0;
   height: 100%;
+} */
+
+.bmi-levels-image {
+  width: 100%; 
+  max-width: 750px; 
+  margin: 20px 0;
+  height: auto;
 }
+
 
 .card-container {
   display: flex;
