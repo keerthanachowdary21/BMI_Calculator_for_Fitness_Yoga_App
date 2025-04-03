@@ -53,8 +53,5 @@ The BMI Calculator empowers users to:
 ## Contributing
 We welcome contributions! Feel free to submit issues and pull requests.
 
-## License
-This project is licensed under the **MIT License**.
-
 ---
 _Stay healthy, stay fit! 🧘‍♀️💪_
